@@ -27,7 +27,7 @@ class Program
 
         hoofd.ypos = screenheight / 2;
 
-        hoofd.schermkleur = ConsoleColor.Red;
+        hoofd.ScreenColor = ConsoleColor.Red;
 
         string movement = "RIGHT";
 
@@ -41,7 +41,7 @@ class Program
 
         hoofd.yPos = screenheight / 2;
 
-        hoofd.schermKleur = ConsoleColor.Red;
+        hoofd.ScreenColor = ConsoleColor.Red;
 
 
 
@@ -146,7 +146,7 @@ class Program
                 Console.Write("■");
 
             }
-
+            
             //Draw Snake
 
             Console.SetCursorPosition(hoofd.xPos, hoofd.yPos);
