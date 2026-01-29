@@ -15,7 +15,7 @@ Gracz steruje wężem poruszającym się po planszy. Celem jest zbieranie owocó
 ## 🛠️ Instrukcja Uruchomienia
 1. Sklonuj repozytorium na dysk:
    ```bash
-   git clone [https://github.com/kotulski/SnakeGame.git](https://github.com/kotulski/SnakeGame.git)
+   git clone https://github.com/kotulski/SnakeGame.git
 2. Otwórz plik rozwiązania SnakeGame.sln w środowisku Visual Studio.
 3. Skompiluj projekt i uruchom grę przyciskiem Start lub klawiszem F5.
 
