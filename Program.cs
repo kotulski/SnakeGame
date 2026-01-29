@@ -13,6 +13,20 @@ class Program
         int screenheight = Console.WindowHeight;
         Random randomnummer = new Random();
 
+        // --- MULTIPLAYER
+        Console.CursorVisible = false;
+        Console.ForegroundColor = ConsoleColor.Cyan;
+        Console.WriteLine("\n\n\tSNAKE ONLINE");
+        Console.WriteLine("\tSzukanie serwera...");
+        Thread.Sleep(500);
+        Console.WriteLine("\tŁączenie z graczem 2...");
+        Thread.Sleep(500);
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.WriteLine("\tBłąd połączenia! Tryb Offline.");
+        Thread.Sleep(1000);
+        Console.Clear();
+        // ----------------
+
 
         while (true)
         {
