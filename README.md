@@ -32,5 +32,5 @@ feature-multiplayer: Gałąź rozwojowa - dodanie ekranu symulującego łączeni
 
 Każda zmiana była wprowadzana poprzez Pull Request, poddawana weryfikacji i scalana z gałęzią główną.
 
-## 👥 Autorzy
+## 👥 Autor
 Patryk Kotulski - Główny Programista
